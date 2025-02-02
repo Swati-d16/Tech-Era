@@ -1,0 +1,27 @@
+.course-item {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+}
+
+.course-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.course-logo {
+  height: 100px;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+.course-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #1e293b;
+}
